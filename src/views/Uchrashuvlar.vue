@@ -144,7 +144,7 @@ table tr td {
   font-weight: 600;
 }
 .detailsuz .recentOrders table tr {
-  color: var(--black1);
+  color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .detailsuz .recentOrders table tr:last-child {
@@ -181,10 +181,10 @@ th {
 tbody{
   background: #f2f2f2;
 }
-td{
+table td tr{
   padding: 15px;
   font-size: 14px;
-  color: #333;
+  color: #ffffff;
 }
 
 tr:nth-child(even){

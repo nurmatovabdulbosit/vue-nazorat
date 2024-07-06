@@ -96,38 +96,53 @@
                             <thead>
                                 <tr>
                                     <td>T/R</td>
-                                    <td>Nomi</td>
-									<td>Kiritilgan sanasi</td>
-									<td>Yo'nalishi</td>
-                                    <td>Tuman</td>
-									<td>Ishga tushish sanasi</td>
+                                    <td>Loyiha nomi</td>
+									<td>Biriktirlgan mas'ul</td>
+									<td>Tuman</td>
+                                    <td>Tasnifi</td>
+                                    <td>Horijiy jamkor</td>
+                                    <td>Xitoy</td>
+                                    <td>Soha yo'nalishi</td>
+									<td>Loyiha qiymati</td>
+                                    <td>Qoldiq</td>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Huyndai OOO</td>
-									<td>07.07.2024</td>
-									<td> <span class="status purple">Sanoat</span></td>
-									<td>Uchqo'rg'on</td>
-									<td>07.01.2025</td>
+                                    <td>"Namangan Qianxing investment" MCHJ</td>
+									<td>A.Abduhamidov</td>
+									<td> <span class="status purple">Namangan shahri</span></td>
+									<td>yashil </td>
+                                    <td>"Qianing investment"</td>
+                                    <td>Xitoy </td>
+                                    <td>Xizmat korsatish</td>
+									<td>50.0</td>
+                                    <td>33.0</td>
                                 </tr>
                                 <tr>
-									<td>3</td>
-                                    <td>Huyndai OOO</td>
-									<td>07.07.2024</td>
-									<td> <span class="status purple">Sanoat</span></td>
-									<td>Uchqo'rg'on</td>
-									<td>07.01.2025</td>
-									
+									<td>2</td>
+                                    <td>"Namangan Qianxing investment" MCHJ</td>
+									<td>A.Abduhamidov</td>
+									<td> <span class="status purple">Namangan shahri</span></td>
+									<td>yashil </td>
+                                    <td>"Qianing investment"</td>
+                                    <td>Xitoy </td>
+                                    <td>Xizmat korsatish</td>
+									<td>50.0</td>
+                                    <td>33.0</td>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td>Huyndai OOO</td>
-									<td>07.07.2024</td>
-									<td> <span class="status purple">Sanoat</span></td>
-									<td>Uchqo'rg'on</td>
-									<td>07.01.2025</td>
+                                    <td>3</td>
+                                    <td>"Namangan Qianxing investment" MCHJ</td>
+									<td>A.Abduhamidov</td>
+									<td> <span class="status purple">Namangan shahri</span></td>
+									<td>yashil </td>
+                                    <td>"Qianing investment"</td>
+                                    <td>Xitoy </td>
+                                    <td>Xizmat korsatish</td>
+									<td>50.0</td>
+                                    <td>33.0</td>
                                 </tr>
                                 
                             </tbody>
