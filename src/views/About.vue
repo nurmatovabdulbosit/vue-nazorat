@@ -2,7 +2,7 @@
                 <div class="projects">
                     <div class="card">
                         <div class="card-header">
-                            <h3>Loyihalar</h3>
+                            <h3>Muammoli loyihalar</h3>
                             <button>Export <span class="material"></span></button>
                         </div>
                     <div class="card-body">

@@ -27,8 +27,8 @@
 				</li>
 				<li>
 					<router-link to="/about" class="button">
-						<span class="material-icons">clear_all</span>
-						<span class="text">Yo'nalishlar kesmida</span>
+						<span class="material-icons">event_busy</span>
+						<span class="text">Muammoli loyihalar</span>
 					</router-link>
 				</li>
 				<li>
@@ -37,32 +37,18 @@
 						<span class="text">Uchrashuvlar</span>
 					</router-link>
 				</li>
-				<li>
-					<router-link to="/muammo" class="button">
-						<span class="material-icons">event_busy</span>
-						<span class="text">Muammoli loyihalar</span>
-					</router-link>
-				</li>
+				
 				<li>
 					<router-link to="/loyiha" class="button">
-						<span class="material-icons">email</span>
-						<span class="text">Loyihalar (turlari buyicha)</span>
+						<span class="material-icons">add_task</span>
+						<span class="text">Yakunlangan</span>
 					</router-link>
 				</li>
 				<li>
 					<router-link to="/sohaloyiha" class="button">
 						<span class="material-icons">event_note</span>
-						<span class="text">Loyihalar (soxalar buyicha)</span>
+						<span class="text">Rejadagi loyihalar</span>
 					</router-link>
-				</li>
-				<li>
-					<router-link to="/payments" class="button">
-						<span class="material-icons">attach_money</span>
-						<span class="text">Payments</span>
-					</router-link>
-				</li>
-				<li>
-					
 				</li>
 			</ul>
 			

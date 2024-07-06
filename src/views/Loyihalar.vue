@@ -2,9 +2,9 @@
 	<main id="loyiha-page">
 		<div class="grid-container1">
 			<div class="grid-item ">Davlat investitsiya dasturi (GIP)</div>
-			<div class="grid-item t ">Yirik <div class="imgBx"><img src="../assets/customer02.jpg" alt=""></div></div>
-			<div class="grid-item t">O'rta</div>
-			<div class="grid-item t">Kichik</div>
+			<div class="grid-item t ">2022 </div>
+			<div class="grid-item t">2023</div>
+			<div class="grid-item t">2024</div>
 		</div>
 		<div class="grid-container">
 			
@@ -81,52 +81,14 @@
 						</ion-icon>
 				</div>
 			</div>
-			<div class="grid-item">
-				<div class="numbers">325</div>
-				<div class="cardName">Muammolari</div>
-				<div class="iconBx">
-						<ion-icon class="">
-						
-						</ion-icon>
-				</div>
-			</div>
-			<div class="grid-item ss">
-				<div class="numbers">325</div>
-				<div class="cardName">Yirik</div>
-				<div class="iconBx">
-						<ion-icon class="">
-							
-						</ion-icon>
-				</div>
-			</div>
-			<div class="grid-item ss">
-				<div class="numbers">325</div>
-				<div class="cardName">O'rta</div>
-				<div class="iconBx">
-						<ion-icon class="">
-							
-						</ion-icon>
-				</div>
-			</div>
-			<div class="grid-item ss">
-				<div class="numbers">325</div>
-				<div class="cardName">Kichik</div>
-				<div class="iconBx">
-						<ion-icon class="">
-							
-						</ion-icon>
-				</div>
-			</div>
-			
-
-			
+		
 		</div>
 		<div class="grid-container3">
 				<div class="grid-item">Hududiy investitsiya dasturi (RIP)</div>
-				<div class="grid-item t">Sanoat</div>
-				<div class="grid-item t">Xizmat</div>
-				<div class="grid-item t">Qishloq xo'jaligi</div>
-				<div class="grid-item t">Qoldiq <p class="unil">(yil ohiriga qadar ishga tushadigan loyihalar)</p></div>
+				<div class="grid-item t">2022</div>
+				<div class="grid-item t">2023</div>
+				<div class="grid-item t">2024</div>
+				
 				
 		</div>
 		<div class="grid-container">
@@ -267,7 +229,7 @@
 }
 .grid-container3 {
 	display: grid;
-	grid-template-columns: auto 190px 190px 210px 210px;
+	grid-template-columns: auto 200px 200px 200px;
 	padding: 0px 15px 0px 15px;
 	background-color: white;
 	border-radius: 10px;
