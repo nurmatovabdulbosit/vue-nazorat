@@ -196,6 +196,9 @@ tfoot td {
   background: none;
   cursor: pointer;
 }
+.card-single:last-child h1{
+    color: #333;
+}
 
 
 </style>

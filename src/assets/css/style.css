@@ -304,15 +304,13 @@ main{
   color: var(--text-grey);
 }
 
-.card-single:last-child {
-  background: var(--main-color);
-}
-.card-single:last-child h1,
-.card-single:last-child div:last-child span,
-.card-single:last-child div:first-child span{
-  color: #fff;
-}
 
+.card-single:hover {   
+  background: var(--card-color);
+  color: var(--main-color);
+  cursor: pointer;
+  
+}
 /**
 TABLEga kod
 **/
@@ -334,6 +332,8 @@ TABLEga kod
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+  
 }
 .card-header button{
   background: var(--main-color);
@@ -342,6 +342,12 @@ TABLEga kod
   font-size: .8rem;
   padding: .5rem 1rem;
   border: 1px solid var(--main-color);
+}
+.card-header button:hover{
+  background: var(--card-color);
+  color: var(--main-color);
+  cursor: pointer;
+  
 }
 
 
@@ -433,6 +439,13 @@ ekranga
     padding-left: 1rem;
   
   }
+  .card-header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .1rem;
+    text-align: center;
+    
+  }
  
 }
 
@@ -447,6 +460,14 @@ ekranga
     padding-left: 1rem;
   
   }
+  .card-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: .1rem;
+    text-align: center;
+    
+  }
+
 }
 @media only screen and (max-width: 768px) {
   .cards {
@@ -455,6 +476,8 @@ ekranga
   .recent-grid {
     grid-template-columns: 100%;
   }
+
+
   .search-wrapper {
     display: none;
   }
@@ -531,6 +554,11 @@ ekranga
   }
   .muqova {
     display: none;
+  }
+  .card-header {
+    display: grid;
+    grid-auto-columns: 65%;
+    grid-gap: .3rem;
   }
 
 }

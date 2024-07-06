@@ -2,9 +2,11 @@
          <main>
                         <div class="card-header">
                             <h3>Davlat investitsiya dasturi (GIP)</h3>
-                            <button>Yirik loyihalar </button>
+                            <button>O'rta loyihalar
+                                          </button>
                             <button>O'rta loyihalar </button>
                             <button>Kichik loyihalar </button>
+                            <a>Ko'chirib olish </a>
                         </div>
             <div class="cards">
                 
@@ -143,25 +145,41 @@
 
 </script>
 <style scoped>
-.card-single:hover {
-    background: var(--card-color);
-    cursor: pointer;
-}
+
 .recent-grid {
     grid-template-columns:auto;
 }
-.card-header button {
-    background: #46C263;
+a {
+    background:#13aa52;
     border-radius: 10px;
-    color: #f0f0f0;
+    border-width: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1), 0 3px 6px rgba(0, 0, 0, .05);
+    box-sizing: border-box;
+    color:#25292e;
+    padding: 0.5rem 1rem;
     font-size: .8rem;
-    padding: .5rem 1rem;
-    border: 0;
     
 }
-.card-header:hover button {
-    background: #009723;
+.card-single:last-child {
+  background: var(--main-color);
+}
+.card-single:last-child h1,
+.card-single:last-child div:last-child span,
+.card-single:last-child div:first-child span{
+  color: #fff;
+}
+.card-header button:hover {
     
     cursor: pointer;
 }
+a:hover {
+    background-image: linear-gradient(#464d55, #25292e);
+    
+    color:   #fff;
+    cursor: pointer;
+   
+    
+}
+
+
 </style>

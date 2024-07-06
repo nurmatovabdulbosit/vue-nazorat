@@ -6,6 +6,7 @@
                        <button>Qishloq ho'jaligi loyihalar </button>
                        <button>Xizmat ko'rsatish loyihalar </button>
                        <button>Qoldiq loyihalar </button>
+                       <a>Ko'chirib olish </a>
                    </div>
        <div class="cards">
            
@@ -151,18 +152,36 @@ cursor: pointer;
 .recent-grid {
 grid-template-columns:auto;
 }
-.card-header button {
-background: #46C263;
-border-radius: 10px;
-color: #f0f0f0;
-font-size: .8rem;
-padding: .5rem 1rem;
-border: 0;
 
+a {
+    background:#13aa52;
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1), 0 3px 6px rgba(0, 0, 0, .05);
+    box-sizing: border-box;
+    color:#25292e;
+    padding: 0.5rem 1rem;
+    font-size: .8rem;
+    
 }
-.card-header:hover button {
-background: #009723;
-
-cursor: pointer;
+.card-single:last-child {
+  background: var(--main-color);
+}
+.card-single:last-child h1,
+.card-single:last-child div:last-child span,
+.card-single:last-child div:first-child span{
+  color: #fff;
+}
+.card-header button:hover {
+    
+    cursor: pointer;
+}
+a:hover {
+    background-image: linear-gradient(#464d55, #25292e);
+    
+    color:   #fff;
+    cursor: pointer;
+   
+    
 }
 </style>
