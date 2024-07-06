@@ -17,8 +17,8 @@ const router = createRouter({
 			component: () => import('../views/Rip.vue')
 		},
 		{
-			path: '/about',
-			component: () => import('../views/About.vue')
+			path: '/muammo',
+			component: () => import('../views/Muammo.vue')
 		},
 		{
 			path: '/uchrashuvlar',
@@ -29,17 +29,14 @@ const router = createRouter({
 		component: () => import('../views/Muammo.vue')
 		},
 		{
-			path: '/loyiha',
-			component: () => import('../views/Loyihalar.vue')
+			path: '/yakun',
+			component: () => import('../views/Yakun.vue')
 	},
 	{
-		path: '/sohaloyiha',
-		component: () => import('../views/Loyihalarsoha.vue')
+		path: '/rejaloyiha',
+		component: () => import('../views/Rejaloyiha.vue')
 	},
-	{
-		path: '/payments',
-		component: () => import('../views/payments.vue')
-	},
+	
 	],
 })
 

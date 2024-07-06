@@ -26,7 +26,7 @@
 					</router-link>
 				</li>
 				<li>
-					<router-link to="/about" class="button">
+					<router-link to="/muammo" class="button">
 						<span class="material-icons">event_busy</span>
 						<span class="text">Muammoli loyihalar</span>
 					</router-link>
@@ -39,13 +39,13 @@
 				</li>
 				
 				<li>
-					<router-link to="/loyiha" class="button">
+					<router-link to="/yakun" class="button">
 						<span class="material-icons">add_task</span>
 						<span class="text">Yakunlangan</span>
 					</router-link>
 				</li>
 				<li>
-					<router-link to="/sohaloyiha" class="button">
+					<router-link to="/rejaloyiha" class="button">
 						<span class="material-icons">event_note</span>
 						<span class="text">Rejadagi loyihalar</span>
 					</router-link>
