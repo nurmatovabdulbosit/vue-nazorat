@@ -13,9 +13,22 @@
 				</router-link>
 				</li>
 				<li>
+					<router-link to="/gip" class="button">
+						<span class="material-icons">language</span>
+						<span class="text">Horijiy investitsiya (GIP)</span>
+					</router-link>
+				</li>
+				<li>
+					<router-link to="/rip" class="button">
+						<span class="material-icons">public</span>
+						<span class="text">Hududiy investitsiya (RIP)
+						</span>
+					</router-link>
+				</li>
+				<li>
 					<router-link to="/about" class="button">
-						<span class="material-icons">description</span>
-						<span class="text">Ishga tushgan loyihalar</span>
+						<span class="material-icons">clear_all</span>
+						<span class="text">Yo'nalishlar kesmida</span>
 					</router-link>
 				</li>
 				<li>

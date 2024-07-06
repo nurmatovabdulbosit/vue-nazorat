@@ -9,6 +9,14 @@ const router = createRouter({
 			component: Home
 		},
 		{
+			path: '/gip',
+			component: () => import('../views/Gip.vue')
+		},
+		{
+			path: '/rip',
+			component: () => import('../views/Rip.vue')
+		},
+		{
 			path: '/about',
 			component: () => import('../views/About.vue')
 		},
